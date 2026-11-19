@@ -18,6 +18,14 @@ with SHA-256 verification. For SwiftPM:
 Import `RanaMapsSDK`. Use a public Rana key restricted to your bundle identifier; never embed a secret key.
 See [installation and examples](https://developers.ranamaps.com/maps-ios.html).
 
+## Upcoming host configuration
+
+The published `0.2.0-beta.1` package uses the preview map key arguments. For the
+upcoming release, the [host-key migration guide](https://github.com/jeremiahseun/ranamaps-sdk/blob/main/sdk/HOST-KEY.md)
+shows how to configure the public key in `AppDelegate` before creating a map.
+This repository contains the SwiftPM distribution. The [SDK source repository](https://github.com/jeremiahseun/ranamaps-sdk)
+contains the implementation and [sample verification record](https://github.com/jeremiahseun/ranamaps-sdk/blob/main/sdk/cross-platform/VERIFICATION.md#19-november-2026--live-sample-acceptance).
+
 ## Included
 
 - Maps, camera/gestures/events, markers, vehicles, styled GeoJSON and native offline regions.
