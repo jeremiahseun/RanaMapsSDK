@@ -26,8 +26,10 @@ before creating a map. See the [host-key migration guide](https://github.com/jer
 For CocoaPods, add the native dependency to the app target and run `pod install`.
 
 ```ruby
-pod 'RanaMapsSDK', :podspec => 'https://assets.ranamaps.com/sdk/ios/0.4.0-beta.0/RanaMapsSDK.podspec'
+pod 'RanaMapsSDK', '0.4.0-beta.0'
 ```
+
+If a cached CocoaPods index cannot find the version, run `pod install --repo-update`.
 
 Build the [standalone SwiftPM samples](https://github.com/jeremiahseun/ranamaps-sdk-examples/tree/main/ios)
 for map and ride-hail examples.
