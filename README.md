@@ -21,7 +21,7 @@ See [installation and examples](https://developers.ranamaps.com/maps-ios.html).
 ## Configure the host key
 
 Configure the bundle-restricted public key at launch with `try RanaMaps.configure(apiKey: publicKey)`
-before creating a map. See the [host-key migration guide](https://github.com/jeremiahseun/ranamaps-sdk/blob/c6ea04d3c25bb01c2d0997e84990abc282bdbb29/sdk/HOST-KEY.md).
+before creating a map. See the [host-key migration guide](https://github.com/jeremiahseun/ranamaps-sdk-examples/blob/main/docs/host-key.md).
 
 For CocoaPods, add the native dependency to the app target and run `pod install`.
 
@@ -29,8 +29,8 @@ For CocoaPods, add the native dependency to the app target and run `pod install`
 pod 'RanaMapsSDK', :podspec => 'https://assets.ranamaps.com/sdk/ios/0.4.0-beta.0/RanaMapsSDK.podspec'
 ```
 
-This repository contains the SwiftPM distribution. The [SDK source repository](https://github.com/jeremiahseun/ranamaps-sdk)
-contains the implementation and [sample verification record](https://github.com/jeremiahseun/ranamaps-sdk/blob/main/sdk/cross-platform/VERIFICATION.md#19-november-2026--live-sample-acceptance).
+Build the [standalone SwiftPM samples](https://github.com/jeremiahseun/ranamaps-sdk-examples/tree/main/ios)
+for map and ride-hail examples.
 
 ## Included
 
